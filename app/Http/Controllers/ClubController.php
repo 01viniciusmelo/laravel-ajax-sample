@@ -18,7 +18,7 @@ class ClubController extends Controller
     public function index()
     {
         if(isset($_GET['user'])){
-            $clubs = User::find($_GET['user'])->clubs()->get(); //Filtrar por usuarios
+            $clubs = User::find($_GET['user'])->clubs()->get();
         }else{
             $clubs = Club::all();
         }
@@ -33,7 +33,7 @@ class ClubController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param ClubRequest $request
      * @return \Illuminate\Http\Response
      */
     public function store(ClubRequest $request)
@@ -63,8 +63,8 @@ class ClubController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Club  $club
+     * @param ClubRequest $request
+     * @param  \App\Club $club
      * @return \Illuminate\Http\Response
      */
     public function update(ClubRequest $request, Club $club)
@@ -92,7 +92,7 @@ class ClubController extends Controller
      * Remove the specified resource from storage.
      *
      * @param Request $request
-     * @param User $user
+     * @param Club $club
      * @return \Illuminate\Http\Response
      */
     public function assocUsers(Request $request, Club $club)

@@ -18,7 +18,7 @@ class UserController extends Controller
     public function index()
     {
         if(isset($_GET['club'])){
-            $users = Club::find($_GET['club'])->users()->get(); //Filtrar por usuarios
+            $users = Club::find($_GET['club'])->users()->get();
         }else{
             $users = User::all();
         }
@@ -33,7 +33,7 @@ class UserController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param UserRequest $request
      * @return \Illuminate\Http\Response
      */
     public function store(UserRequest $request)
