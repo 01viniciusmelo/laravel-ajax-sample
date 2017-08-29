@@ -40,7 +40,9 @@ clube na qual o sócio está associado.
 1 - Clonar o repositório e instalar as dependências (<a href="https://getcomposer.org/download" target="_blank">Composer</a> é necessário)
  ```
  git clone https://bitbucket.org/marcelobsilva/dataclickselecao
+ 
  cd ./dataclickselecao
+ 
  composer install
  ```
  
@@ -57,10 +59,15 @@ clube na qual o sócio está associado.
  4 - Criar banco de dados e inserir informações no arquivo de configuração .env, como no exemplo abaixo
   ```
   DB_CONNECTION=pgsql
+  
   DB_HOST=127.0.0.1
+  
   DB_PORT=5432
+  
   DB_DATABASE=clubs
+  
   DB_USERNAME=postgres
+  
   DB_PASSWORD=root
   ```
  
@@ -69,5 +76,5 @@ clube na qual o sócio está associado.
   php artisan serve
   ```
  
- 6 - Acessar <a href="http://localhost:8000" target="_blank">http://localhost:8000</a> para ver a aplicação rodando
+ 6 - Acessar [http://localhost:8000](http://localhost:8000) para ver a aplicação rodando
  ![screamshot](https://marcelobsilva@bitbucket.org/marcelobsilva/dataclickselecao/images/screenshot.png)
