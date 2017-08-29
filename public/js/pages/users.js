@@ -199,7 +199,7 @@ function updateUser() {
     axios.put('/usuarios/'+form.find('input[name=id]').val(), form.serialize())
         .then(function (response) {
 
-            swal("Eliminado!", "O sócio foi atualizado com sucesso", "success");
+            swal("Pronto!", "O sócio foi atualizado com sucesso", "success");
 
             usersDataTable.ajax.url(usersDataTableUrl).load();
 
@@ -225,7 +225,7 @@ function saveNewUser() {
 
     axios.post('/usuarios', form)
         .then(function (response) {
-            swal("Eliminado!", "O sócio foi criado com sucesso", "success");
+            swal("Pronto!", "O sócio foi criado com sucesso", "success");
 
             usersDataTable.ajax.url(usersDataTableUrl).load();
 
