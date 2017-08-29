@@ -83,6 +83,7 @@ class ClubController extends Controller
      */
     public function destroy(Club $club)
     {
+        $club->users()->detach();
         $club->delete();
         return response()->json(['Eliminado'], 200);
     }

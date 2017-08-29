@@ -83,6 +83,7 @@ class UserController extends Controller
      */
     public function destroy(User $user)
     {
+        $user->clubs()->detach();
         $user->delete();
         return response()->json(['Eliminado'], 200);
     }
