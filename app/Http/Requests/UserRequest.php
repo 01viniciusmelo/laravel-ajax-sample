@@ -24,9 +24,9 @@ class UserRequest extends FormRequest
     public function rules()
     {
         if(isset($this->id)){
-            $rules = ['name' => 'required|max:255|unique:clubs,name,'.$this->id];
+            $rules = ['name' => 'required|max:255|unique:users,name,'.$this->id];
         }else{
-            $rules = ['name' => 'required|max:255|unique:clubs,name'];
+            $rules = ['name' => 'required|max:255|unique:users,name'];
         }
 
         return $rules;
