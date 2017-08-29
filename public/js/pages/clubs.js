@@ -192,12 +192,8 @@ function updateClub() {
 
     axios.put('/clubes/'+form.find('input[name=id]').val(), form.serialize())
         .then(function (response) {
-            swal({
-                title: "Sucesso!",
-                text: "Clube atualizado com sucesso!",
-                timer: 500,
-                showConfirmButton: false
-            });
+
+            swal("Pronto!", "O club foi atualizado com sucesso", "success");
 
             clubsDataTable.ajax.url(clubsDataTableUrl).load();
 
@@ -223,12 +219,7 @@ function saveNewClub() {
 
     axios.post('/clubes', form)
     .then(function (response) {
-        swal({
-            title: "Sucesso!",
-            text: "Clube criado com sucesso!",
-            timer: 500,
-            showConfirmButton: false
-        });
+        swal("Pronto!", "O club foi criado com sucesso", "success");
 
         clubsDataTable.ajax.url(clubsDataTableUrl).load();
 
