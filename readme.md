@@ -26,7 +26,7 @@ clube na qual o sócio está associado.
    > Essa tela deve ser capaz de excluir o sócio.
  
  
- ### Desenvolvimento
+### Desenvolvimento
  
  **Recursos utilizados**
  
@@ -40,52 +40,45 @@ clube na qual o sócio está associado.
  
  - [Laravel Collective]("https://laravelcollective.com/docs/5.4/html")
  
- ### Instalação
+### Instalação
  
 1 - Clonar o repositório e instalar as dependências ([Composer]("https://getcomposer.org/download") é necessário)
 
- ```
- git clone https://bitbucket.org/marcelobsilva/dataclickselecao
- 
- cd ./dataclickselecao
- 
- composer install
- ```
+```
+git clone https://bitbucket.org/marcelobsilva/dataclickselecao 
+cd ./dataclickselecao
+composer install
+```
  
 2 - Criar arquivo de configurações .env
 
-  ```
-  cp .env.example .env
-  ```
+```
+cp .env.example .env
+```
  
 3 - Criar chave da aplicação
 
-  ```
-  php artisan key:generate
-  ```
+```
+php artisan key:generate
+```
  
- 4 - Criar banco de dados e inserir informações no arquivo de configuração .env, como no exemplo abaixo
+4 - Criar banco de dados e inserir informações no arquivo de configuração .env, como no exemplo abaixo
  
-  ```
-  
-  DB_CONNECTION=pgsql
-  
-  DB_HOST=127.0.0.1
-  
-  DB_PORT=5432
-  
-  DB_DATABASE=clubs
-  
-  DB_USERNAME=postgres
-  
-  DB_PASSWORD=root
-  ```
+```
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=clubs
+DB_USERNAME=postgres
+DB_PASSWORD=root
+```
  
- 5 - Iniciar o servidor interno do Laravel
+5 - Iniciar o servidor interno do Laravel
  
-  ```
-  php artisan serve
-  ```
+```
+php artisan serve
+```
  
  6 - Acessar [http://localhost:8000](http://localhost:8000) para ver a aplicação rodando
- ![screamshot](https://marcelobsilva@bitbucket.org/marcelobsilva/dataclickselecao/images/screenshot.png)
+ 
+ ![screenshot.png](https://bytebucket.org/marcelobsilva/dataclickselecao/raw/300d27e17df581a02fff3c5dcc859d5134735f95/public/images/screenshot.png)
