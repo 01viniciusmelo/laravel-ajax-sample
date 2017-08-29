@@ -1,4 +1,4 @@
-## Seleção Data Click##
+## Seleção Data Click
 
 Repositório para exame prático de desenvolvedor web na Data Click
 
@@ -7,7 +7,7 @@ Repositório para exame prático de desenvolvedor web na Data Click
 **Resume**: https://marcelobdsilva.github.io
 
 
-### Requisitos###
+### Requisitos
 
 T1. Crie uma tela para cadastrar um clube de futebol.
    > Esta tela deve conter somente o campo "Nome do clube".
@@ -26,7 +26,7 @@ clube na qual o sócio está associado.
    > Essa tela deve ser capaz de excluir o sócio.
  
  
- ###Desenvolvimento###
+ ###Desenvolvimento
  
  **Recursos utilizados**
  
@@ -40,7 +40,7 @@ clube na qual o sócio está associado.
  
  - [Laravel Collective]("https://laravelcollective.com/docs/5.4/html")
  
- ### Instalação###
+ ### Instalação
  
 1 - Clonar o repositório e instalar as dependências ([Composer]("https://getcomposer.org/download") é necessário)
 
