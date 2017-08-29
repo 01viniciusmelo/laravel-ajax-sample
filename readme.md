@@ -31,13 +31,14 @@ clube na qual o sócio está associado.
  **Recursos utilizados**
  - Laravel 5.4
  - PHP 7.0
- - Admin Template <a href="https://github.com/gurayyarar/AdminBSBMaterialDesign" target="_blank">gurayyarar/AdminBSBMaterialDesign</a>
- - <a href="https://github.com/mzabriskie/axios" target="_blank">Axios</a> HTTP client
- - <a href="https://laravelcollective.com/docs/5.4/html" target="_blank">Laravel Collective</a>
+ - Admin Template [gurayyarar/AdminBSBMaterialDesign]("https://github.com/gurayyarar/AdminBSBMaterialDesign")
+ - [Axios]("https://github.com/mzabriskie/axios") HTTP client
+ - [Laravel Collective]("https://laravelcollective.com/docs/5.4/html")
  
  ### Instalação
  
-1 - Clonar o repositório e instalar as dependências (<a href="https://getcomposer.org/download" target="_blank">Composer</a> é necessário)
+1 - Clonar o repositório e instalar as dependências ([Composer]("https://getcomposer.org/download") é necessário)
+
  ```
  git clone https://bitbucket.org/marcelobsilva/dataclickselecao
  
@@ -47,16 +48,19 @@ clube na qual o sócio está associado.
  ```
  
 2 - Criar arquivo de configurações .env
+
   ```
   cp .env.example .env
   ```
  
 3 - Criar chave da aplicação
+
   ```
   php artisan key:generate
   ```
  
  4 - Criar banco de dados e inserir informações no arquivo de configuração .env, como no exemplo abaixo
+ 
   ```
   DB_CONNECTION=pgsql
   
@@ -72,6 +76,7 @@ clube na qual o sócio está associado.
   ```
  
  5 - Iniciar o servidor interno do Laravel
+ 
   ```
   php artisan serve
   ```
