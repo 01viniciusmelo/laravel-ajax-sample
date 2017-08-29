@@ -1,4 +1,4 @@
-## Seleção Data Click
+## Seleção Data Click##
 
 Repositório para exame prático de desenvolvedor web na Data Click
 
@@ -7,7 +7,7 @@ Repositório para exame prático de desenvolvedor web na Data Click
 **Resume**: https://marcelobdsilva.github.io
 
 
-### Requisitos
+### Requisitos###
 
 T1. Crie uma tela para cadastrar um clube de futebol.
    > Esta tela deve conter somente o campo "Nome do clube".
@@ -26,24 +26,27 @@ clube na qual o sócio está associado.
    > Essa tela deve ser capaz de excluir o sócio.
  
  
- ### Desenvolvimento
+ ###Desenvolvimento###
  
  **Recursos utilizados**
+ 
  - Laravel 5.4
+ 
  - PHP 7.0
+ 
  - Admin Template [gurayyarar/AdminBSBMaterialDesign]("https://github.com/gurayyarar/AdminBSBMaterialDesign")
+ 
  - [Axios]("https://github.com/mzabriskie/axios") HTTP client
+ 
  - [Laravel Collective]("https://laravelcollective.com/docs/5.4/html")
  
- ### Instalação
+ ### Instalação###
  
 1 - Clonar o repositório e instalar as dependências ([Composer]("https://getcomposer.org/download") é necessário)
 
  ```
  git clone https://bitbucket.org/marcelobsilva/dataclickselecao
- 
  cd ./dataclickselecao
- 
  composer install
  ```
  
@@ -62,6 +65,7 @@ clube na qual o sócio está associado.
  4 - Criar banco de dados e inserir informações no arquivo de configuração .env, como no exemplo abaixo
  
   ```
+  
   DB_CONNECTION=pgsql
   
   DB_HOST=127.0.0.1
