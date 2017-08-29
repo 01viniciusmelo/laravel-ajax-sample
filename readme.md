@@ -26,7 +26,7 @@ clube na qual o sócio está associado.
    > Essa tela deve ser capaz de excluir o sócio.
  
  
- ###Desenvolvimento
+ ### Desenvolvimento
  
  **Recursos utilizados**
  
@@ -46,7 +46,9 @@ clube na qual o sócio está associado.
 
  ```
  git clone https://bitbucket.org/marcelobsilva/dataclickselecao
+ 
  cd ./dataclickselecao
+ 
  composer install
  ```
  
