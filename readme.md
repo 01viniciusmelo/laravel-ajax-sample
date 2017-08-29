@@ -73,12 +73,18 @@ DB_USERNAME=postgres
 DB_PASSWORD=root
 ```
  
-5 - Iniciar o servidor interno do Laravel
+5 - Carregar dados no banco
+
+```
+php artisan migrate
+```
+
+6 - Iniciar o servidor interno do Laravel
  
 ```
 php artisan serve
 ```
  
- 6 - Acessar [http://localhost:8000](http://localhost:8000) para ver a aplicação rodando
+7 - Acessar [http://localhost:8000](http://localhost:8000) para ver a aplicação rodando
  
  ![screenshot.png](https://bytebucket.org/marcelobsilva/dataclickselecao/raw/300d27e17df581a02fff3c5dcc859d5134735f95/public/images/screenshot.png)
