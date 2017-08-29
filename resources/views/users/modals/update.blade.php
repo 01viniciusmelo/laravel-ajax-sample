@@ -18,7 +18,7 @@
                     <div class="col-sm-12">
                         <div class="form-group">
                             <div class="form-line">
-                                <label for="">Nome do Usere</label>
+                                <label for="">Nome do Sócio</label>
                                 <input type="text" name="name" class="form-control" placeholder="Nome do Sócio">
                             </div>
                         </div>
