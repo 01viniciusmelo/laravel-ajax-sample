@@ -54,7 +54,7 @@ $(document).ready(function () {
         ],
     });
     clubUsersDataTable = $('.clubUsersDataTable').DataTable({
-        dom: 'frtip',
+        dom: 'lfrtip',
         responsive: true,
         language: {
             "sEmptyTable": "Nenhum registro encontrado",
