@@ -2,7 +2,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="updateUserModalLabel">Editar Usuário</h4>
+                <h4 class="modal-title" id="updateUserModalLabel">Editar Sócio</h4>
             </div>
 
             <div class="modal-body">
@@ -19,7 +19,7 @@
                         <div class="form-group">
                             <div class="form-line">
                                 <label for="">Nome do Usere</label>
-                                <input type="text" name="name" class="form-control" placeholder="Nome do Usere">
+                                <input type="text" name="name" class="form-control" placeholder="Nome do Sócio">
                             </div>
                         </div>
                     </div>
