@@ -1,0 +1,18 @@
+tbody tr{
+    vertical-align: middle;
+}
+
+.btn{
+    margin: 3px;
+}
+
+.btn.table-option:hover{
+    background-color: #C1C1C1;
+    color: #419641;
+}
+.dataTables_length{
+    float: left;
+}
+.dataTables_filter{
+    float: right;
+}
