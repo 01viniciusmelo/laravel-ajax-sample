@@ -1,13 +1,13 @@
-## Seleção Data Click
+## Laravel 5.4 simple ajax implementation
 
-Repositório para exame prático de desenvolvedor web na Data Click
+Simples implementação de Laravel 5.4 com Ajax
 
-**Participante**: Marcelo Barros da Silva
+**Autor**: Marcelo Barros da Silva
 
 **Resume**: https://marcelobdsilva.github.io
 
 
-### Requisitos
+### Requisitos da aplicação
 
 T1. Crie uma tela para cadastrar um clube de futebol.
    > Esta tela deve conter somente o campo "Nome do clube".
@@ -40,13 +40,15 @@ clube na qual o sócio está associado.
  
  - [Laravel Collective]("https://laravelcollective.com/docs/5.4/html")
  
+ - [DataTables]("https://datatables.net")
+ 
 ### Instalação
  
 1 - Clonar o repositório e instalar as dependências ([Composer]("https://getcomposer.org/download") é necessário)
 
 ```
-git clone https://bitbucket.org/marcelobsilva/dataclickselecao 
-cd ./dataclickselecao
+git clone https://github.com/marcelobdsilva/laravel-ajax-sample
+cd ./laravel-ajax-sample
 composer install
 ```
  
