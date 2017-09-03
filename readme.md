@@ -34,17 +34,17 @@ clube na qual o sócio está associado.
  
  - PHP 7.0
  
- - Admin Template [gurayyarar/AdminBSBMaterialDesign]("https://github.com/gurayyarar/AdminBSBMaterialDesign")
+ - Admin Template [gurayyarar/AdminBSBMaterialDesign](https://github.com/gurayyarar/AdminBSBMaterialDesign)
  
- - [Axios]("https://github.com/mzabriskie/axios") HTTP client
+ - [Axios](https://github.com/mzabriskie/axios) HTTP client
  
- - [Laravel Collective]("https://laravelcollective.com/docs/5.4/html")
+ - [Laravel Collective](https://laravelcollective.com/docs/5.4/html)
  
- - [DataTables]("https://datatables.net")
+ - [DataTables](https://datatables.net)
  
 ### Instalação
  
-1 - Clonar o repositório e instalar as dependências ([Composer]("https://getcomposer.org/download") é necessário)
+1 - Clonar o repositório e instalar as dependências ([Composer](https://getcomposer.org/download) é necessário)
 
 ```
 git clone https://github.com/marcelobdsilva/laravel-ajax-sample
@@ -89,4 +89,4 @@ php artisan serve
  
 7 - Acessar [http://localhost:8000](http://localhost:8000) para ver a aplicação rodando
  
- ![screenshot.png](https://bytebucket.org/marcelobsilva/dataclickselecao/raw/300d27e17df581a02fff3c5dcc859d5134735f95/public/images/screenshot.png)
+ ![screenshot.png](https://github.com/marcelobdsilva/laravel-ajax-sample/blob/master/public/images/screenshot.png?raw=true)
